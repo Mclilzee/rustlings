@@ -16,8 +16,6 @@
 //
 // Execute `rustlings hint quiz3` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
 use std::fmt::Display;
 
 pub trait Print {
@@ -58,9 +56,8 @@ mod tests {
 
     #[test]
     fn generate_alphabetic_report_card() {
-        // TODO: Make sure to change the grade here after you finish the exercise.
         let report_card = ReportCard {
-            grade: 2.1,
+            grade: "A+",
             student_name: "Gary Plotter".to_string(),
             student_age: 11,
         };
